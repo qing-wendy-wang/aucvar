@@ -2,7 +2,7 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # aucvar
-
+# DOI: 10.5281/zenodo.7071862
 <!-- badges: start -->
 <!-- badges: end -->
 
