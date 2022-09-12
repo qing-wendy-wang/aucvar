@@ -1,0 +1,31 @@
+Package: aucvar
+Title: Calculate the variance of
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Francisca", "Moya Jimenez", , "fmoya@wellesley.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7375-7993")),
+    person("Qing", "Wang", , "qwang@wellesley.edu", role = c("aut"),
+           comment = c(ORCID = "0000-0002-1853-4022"))) 
+Maintainer: Francisca Moya Jimenez <fmoya@wellesley.edu>
+Authors: Francisca Moya Jimenez <fmoya@wellesley.edu>, Qing Wang <qwang@wellesley.edu>
+Description: Calculate an unbiased variance estimator for the variance of the AUC.
+License: MIT + file LICENSE
+Language: en-US
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/fmoyaj/aucvar
+BugReports: https://github.com/fmoyaj/aucvar/issues
+Imports: 
+    base,
+    ROCR,
+    stats,
+    utils,
+    VeryLargeIntegers,
+    VGAM
+Depends: 
+    R (>= 2.10)
+LazyData: true
